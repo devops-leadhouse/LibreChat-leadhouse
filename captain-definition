@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 2,
+  "dockerComposeFile": "./deploy-compose.yml",
+  "serviceName": "api",
+  "notExposeAsWebApp": false,
+  "containerHttpPort": "${PORT:-3000}"
+}
